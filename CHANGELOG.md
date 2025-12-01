@@ -4,6 +4,10 @@ Please note that compatibility for 0.x releases (software or repositories) isn't
 
 _When adding new entries to the changelog, please include issue/PR numbers wherever possible._
 
+## Unreleased
+
+- Add pager support to `diff` and `show` commands. [#1080](https://github.com/koordinates/kart/pull/1080)
+
 ## 0.17.0
 
 ### Breaking changes
