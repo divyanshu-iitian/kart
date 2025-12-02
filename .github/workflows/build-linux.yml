@@ -574,3 +574,7 @@ jobs:
         working-directory: ./build
         run: |
           ctest -V -L e2e
+
+      - name: "Setup tmate session"
+        if: ${{ failure() }}
+        uses: mxschmitt/action-tmate@v3.23
