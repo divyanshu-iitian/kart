@@ -4,6 +4,11 @@ Please note that compatibility for 0.x releases (software or repositories) isn't
 
 _When adding new entries to the changelog, please include issue/PR numbers wherever possible._
 
+
+## 0.17.1
+
+- Fixes the HTML diff viewer (`-o html`) failing to load the page if the data contained `<`, `>`, or `/` characters. [#1081](https://github.com/koordinates/kart/issues/1081)
+
 ## 0.17.0
 
 ### Breaking changes
